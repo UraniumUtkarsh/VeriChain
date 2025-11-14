@@ -62,7 +62,7 @@ The Government of India provides **DigiLocker**, a centralized digital document 
 | Document Storage             | Only **hash** stored on-chain             | Full documents stored by GoI                     |
 | Verification                 | Trustless, cryptographic                  | Government-verified                              |
 | Customization                | Fully customizable & open-source          | Closed-source                                    |
-| Identity Requirement         | No mandatory KYC                          | Aadhaar-based login required                     |
+| Identity Requirement         | No mandatory KYC, Wallet-linked                          | Aadhaar-based login required                     |
 | Document Ownership           | User-controlled                           | Govt-controlled issuance                         |
 | Use Cases                    | Students, projects, private orgs          | Indian citizens, official certificates           |
 
@@ -117,10 +117,15 @@ F
 
 ## 📂 Project Structure
 VeriChain/
+
 │── backend/ # Flask API
+
 │── contracts/ # Brownie smart contracts
+
 │── frontend/ # React + Vite UI
+
 │── Screenshot/ # App screenshots
+
 │── README.md
 
 ---
