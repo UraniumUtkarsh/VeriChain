@@ -1,0 +1,8 @@
+project_structure:
+  contracts: contracts
+  scripts: scripts
+  tests: tests
+
+compiler:
+  solc:
+    version: 0.8.17
